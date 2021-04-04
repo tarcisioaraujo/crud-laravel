@@ -1,27 +1,128 @@
-# Laravel PHP Framework
+<h1 align="center">Blog</h1>
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Um aplicação para cadastro de cursos com imagem ilustrativa e controle de publicação contruído com Laravel 5.3 e Materialize.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+<p align="center">
+	<a href="https://github.com/tarcisioaraujo/blog-laravel-vue/issues">
+		<img src="https://img.shields.io/github/issues/tarcisioaraujo/crud-laravel" alt="Issues">
+	</a>	
+	<img src="https://img.shields.io/github/license/tarcisioaraujo/crud-laravel" alt="License">	 
+</p>
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+<p align="center">
+	<a href="#computer-tecnologias">Tecnologias</a> •		
+	<a href="#runner-começando">Começando</a> •
+	<a href="#warning-pré-requisitos">Pré-requisitos</a> •
+	<a href="#elephant-configuração-do-php">Configuração do php</a> •
+	<a href="#hammer_and_wrench-instalação">Instalação</a> •
+	<a href="#passport_control-login">Login</a> •
+	<a href="#construction_worker-autor">Autor</a>
+	<a href="#memo-licença">Licença</a>
+</p>
 
-## Official Documentation
+<p align="center">
+	<kbd>
+		<img alt="Lista cartões de cursos" title="#ListaCartoesDeCursos" width="600" height="333" style="border-radius: 5px" src="...">
+	</kbd>
+	<br/><br/>
+	<kbd>
+		<img alt="Lista CRUD cursos" title="#ListaCrudCursos" width="600" height="333" style="border-radius: 5px" src="...">
+	</kbd>		
+</p>
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## :computer: Tecnologias 
 
-## Contributing
+- [PHP](https://www.php.net/)
+- [Laravel](https://laravel.com/)
+- [Materialize](https://materializecss.com/)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## :runner: Começando 
 
-## Security Vulnerabilities
+Essas instruções fornecerão uma cópia do projeto instalado e funcionando em sua máquina local.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## :warning: Pré-requisitos 
 
-## License
+O que você precisar para instalar a aplicação
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+```
+PHP 5.6.4 - 7.1.*
+Composer >= 1.4.2
+Node >= 8.6.0
+```
+### :elephant: Configuração do php 
+
+```
+# Habilitar os recursos no php.ini
+extension=mbstring
+extension=openssl
+extension=pdo_sqlite
+extension_dir = "ext"
+```
+
+## :hammer_and_wrench: Instalação
+
+Passos para rodar a aplicação
+
+```
+# Clonar
+git clone https://github.com/tarcisioaraujo/crud-laravel
+
+# Acessar o diretório
+cd crud-laravel
+
+# Instalar e atualizar as dependências do Composer (leva alguns minutos ☕)
+composer install
+composer update
+
+# Instalar as dependências do Node JS
+npm install
+
+# Configurar variáveis de ambiente
+cp .env.example .env
+php artisan key:generate
+
+# Alterar o arquivo .env para ficar dessa forma
+DB_CONNECTION=sqlite
+//DB_HOST=127.0.0.1
+//DB_PORT=3306
+//DB_DATABASE=homestead
+//DB_USERNAME=homestead
+//DB_PASSWORD=secret
+
+# Criar arquivo do banco de dados SQLite
+copy con .\database\database.sqlite
+<aperte a tecla F6>
+
+# Criar tabelas do Banco de Dados
+php artisan migrate
+
+# Rodar Servidor PHP
+php artisan serve
+
+# Acessar o endereço 
+http://localhost:8000
+```
+## :passport_control: Login 
+
+Usuário de teste
+
+```
+E-mail: admin@mail.com
+Password: 123456
+```
+
+## :construction_worker: Autor
+
+<a href="https://github.com/tarcisioaraujo">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/47223046?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Tarcísio Silva de Araújo</b></sub></a> <a href="https://github.com/tarcisioaraujo" title="GitHub"></a>
+
+Feito por Tarcísio Silva de Araújo 👋
+
+[![Linkedin Badge](https://img.shields.io/badge/-Tarcísio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tarcisiosaraujo/)](https://www.linkedin.com/in/tarcisiosaraujo/) 
+[![Gmail Badge](https://img.shields.io/badge/-tarcisio.saraujo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tarcisio.saraujo@gmail.com)](mailto:tarcisio.saraujo@gmail.com)
+
+## :memo: Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
