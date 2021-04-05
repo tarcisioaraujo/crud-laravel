@@ -24,11 +24,11 @@ Um aplicação para cadastro de cursos com imagem ilustrativa e controle de publ
 	<kbd>
 		<img alt="Atualizar curso" title="#AtualizarCurso" width="600" height="333" style="border-radius: 5px" src="./assets/atualizar_curso.png">
 	</kbd>
-	<br/>
+	<br/><br/>
 	<kbd>
 		<img alt="Lista CRUD cursos" title="#ListaCrudCursos" width="600" height="333" style="border-radius: 5px" src="./assets/crud_cursos.png">
 	</kbd>
-	<br/>
+	<br/><br/>
 	<kbd>
 		<img alt="Cards cursos" title="#CardsCursos" width="600" height="333" style="border-radius: 5px" src="./assets/cards_cursos.png">
 	</kbd>		
