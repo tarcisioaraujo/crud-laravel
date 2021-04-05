@@ -16,7 +16,7 @@ Um aplicação para cadastro de cursos com imagem ilustrativa e controle de publ
 	<a href="#elephant-configuração-do-php">Configuração do php</a> •
 	<a href="#hammer_and_wrench-instalação">Instalação</a> •
 	<a href="#passport_control-login">Login</a> •
-	<a href="#construction_worker-autor">Autor</a>
+	<a href="#construction_worker-autor">Autor</a> •
 	<a href="#memo-licença">Licença</a>
 </p>
 
