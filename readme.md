@@ -77,7 +77,7 @@ composer update
 # Instalar as dependências do Node JS
 npm install
 
-# Configurar variáveis de ambiente
+# Criar arquivo .env e configurar variáveis de ambiente
 cp .env.example .env
 php artisan key:generate
 
@@ -118,7 +118,7 @@ Password: 123456
  <br />
  <sub><b>Tarcísio Silva de Araújo</b></sub></a> <a href="https://github.com/tarcisioaraujo" title="GitHub"></a>
 
-Feito por Tarcísio Silva de Araújo 👋
+Feito por Tarcísio Silva de Araújo :wave:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Tarcísio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tarcisiosaraujo/)](https://www.linkedin.com/in/tarcisiosaraujo/) 
 [![Gmail Badge](https://img.shields.io/badge/-tarcisio.saraujo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tarcisio.saraujo@gmail.com)](mailto:tarcisio.saraujo@gmail.com)
