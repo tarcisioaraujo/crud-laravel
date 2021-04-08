@@ -4,7 +4,7 @@
 
 @section('conteudo')
   <div class="container">
-    <h3 class="center">Lista de cursos</h3>
+    <h3 class="center">Principais cursos</h3>
     <div class="row">
       @foreach($cursos as $curso)
         <div class="col s12 m4">

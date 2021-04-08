@@ -22,11 +22,15 @@ Um aplicação para cadastro de cursos com imagem ilustrativa e controle de publ
 
 <p align="center">
 	<kbd>
-		<img alt="Lista cartões de cursos" title="#ListaCartoesDeCursos" width="600" height="333" style="border-radius: 5px" src="...">
+		<img alt="Atualizar curso" title="#AtualizarCurso" width="600" height="333" style="border-radius: 5px" src="./assets/atualizar_curso.png">
 	</kbd>
 	<br/><br/>
 	<kbd>
-		<img alt="Lista CRUD cursos" title="#ListaCrudCursos" width="600" height="333" style="border-radius: 5px" src="...">
+		<img alt="Lista CRUD cursos" title="#ListaCrudCursos" width="600" height="333" style="border-radius: 5px" src="./assets/crud_cursos.png">
+	</kbd>
+	<br/><br/>
+	<kbd>
+		<img alt="Cards cursos" title="#CardsCursos" width="600" height="333" style="border-radius: 5px" src="./assets/cards_cursos.png">
 	</kbd>		
 </p>
 
@@ -45,7 +49,7 @@ Essas instruções fornecerão uma cópia do projeto instalado e funcionando em 
 O que você precisar para instalar a aplicação
 
 ```
-PHP 5.6.4 - 7.1.*
+PHP 5.6.4 - 7.4.*
 Composer >= 1.4.2
 Node >= 8.6.0
 ```
@@ -77,7 +81,7 @@ composer update
 # Instalar as dependências do Node JS
 npm install
 
-# Configurar variáveis de ambiente
+# Criar arquivo .env e configurar variáveis de ambiente
 cp .env.example .env
 php artisan key:generate
 
@@ -118,7 +122,7 @@ Password: 123456
  <br />
  <sub><b>Tarcísio Silva de Araújo</b></sub></a> <a href="https://github.com/tarcisioaraujo" title="GitHub"></a>
 
-Feito por Tarcísio Silva de Araújo 👋
+Feito por Tarcísio Silva de Araújo :wave:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Tarcísio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tarcisiosaraujo/)](https://www.linkedin.com/in/tarcisiosaraujo/) 
 [![Gmail Badge](https://img.shields.io/badge/-tarcisio.saraujo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tarcisio.saraujo@gmail.com)](mailto:tarcisio.saraujo@gmail.com)
