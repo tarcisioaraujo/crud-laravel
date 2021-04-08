@@ -21,7 +21,7 @@ class LoginController extends Controller
         return redirect()->route('admin.cursos');
       }
 
-      return redirect()->route('login.index');
+      return redirect()->route('site.login');
     }
     public function sair()
     {
