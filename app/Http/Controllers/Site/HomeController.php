@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-      $cursos = Curso::paginate(3);
+      $cursos = Curso::where('publicado','=','sim')->paginate(3);
       return view('home',compact('cursos'));
     }
 }
