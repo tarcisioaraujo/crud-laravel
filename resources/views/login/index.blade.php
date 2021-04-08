@@ -10,12 +10,12 @@
         {{ csrf_field() }}
 
         <div class="input-field">
-          <input type="text" name="email">
           <label>E-mail</label>
+          <input type="text" name="email">          
         </div>
         <div class="input-field">
-          <input type="password" name="senha">
           <label>Senha</label>
+          <input type="password" name="senha">          
         </div>
 
         <button class="btn deep-orange">Entrar</button>
